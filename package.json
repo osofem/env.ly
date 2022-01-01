@@ -1,8 +1,8 @@
 {
-  "name": "envly",
+  "name": "env.ly",
   "version": "0.0.1",
   "description": "Loads environment variables from a .env file into process.env",
-  "main": "dist/envly.js",
+  "main": "dist/env.ly.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,21 @@
     "env",
     "process.env",
     "envly",
+    "env.ly",
     "environment",
     "variable",
     "environment-variable",
     "force"
   ],
   "author": "Oluwafemi Oso (@osofem)",
-  "license": "ISC"
+  "license": "ISC",
+  "types": "./dist/env.ly.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osofem/env.ly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/osofem/env.ly/issues"
+  },
+  "homepage": "https://github.com/osofem/env.ly#readme"
 }

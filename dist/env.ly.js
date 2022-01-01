@@ -9,6 +9,8 @@ const path = require('path');
  */
 function load(arg) {
     //set default values
+    if (arg == undefined)
+        arg = { pathToEnv: process.cwd(), force: false, debug: false };
     if (arg.pathToEnv == undefined)
         arg.pathToEnv = process.cwd();
     if (arg.force == undefined)

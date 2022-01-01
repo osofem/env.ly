@@ -1,4 +1,4 @@
-# evnly
+# evn.ly
 
 A nodejs module for loading `.env` file into `process.env`.
 
@@ -7,7 +7,7 @@ A nodejs module for loading `.env` file into `process.env`.
 #### Typical usage
 
 ```javascript
-require("./envly").load();
+require("env.ly").load();
 ```
 
 For this, the `.env` file needs to be in the current working directory and any preset variable in `process.env` will not be overwritten.
@@ -17,25 +17,25 @@ For this, the `.env` file needs to be in the current working directory and any p
 To force overwriting of preset variables:
 
 ```javascript
-require("./envly").load({force: true});
+require("env.ly").load({force: true});
 ```
 
 To log out information for debug purposes
 
 ```javascript
-require("./envly").load({debug: true});
+require("env.ly").load({debug: true});
 ```
 
 To specify directory path of your `.env` file *(defaults to current working directory of your project)*.
 
 ```javascript
-require("./envly").load({pathToEnv: '/tmp/files/'});
+require("env.ly").load({pathToEnv: '/tmp/files/'});
 ```
 
 #### Complete Options
 
 ```javascript
-require("./envly").load({pathToEnv: '/tmp/files/', force: true, debug: true});
+require("env.ly").load({pathToEnv: '/tmp/files/', force: true, debug: true});
 ```
 
 ### Your .env file
