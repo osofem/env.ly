@@ -42,8 +42,9 @@ require("./envly").load({pathToEnv: '/tmp/files/', force: true, debug: true});
 
 Your `.env` file should have variables in the format `key=value` separated by new line. There should not be quotes around your value (unless you intend it to be so).
 
-> NOTE: do NOT include comment in your .env file
-> Do NOT include quotes in your value (unless you intend it to be so)
+> NOTE: do NOT include comment in your .env file.
+> 
+> Do NOT include quotes in your value (unless you intend it to be so).
 
 ```javascript
 FOO=This is foo! //resolves to FOO:"This is foo!"
