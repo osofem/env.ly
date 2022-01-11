@@ -1,5 +1,5 @@
 {
-  "name": "env.ly",
+  "name": "hoodly",
   "version": "0.0.1",
   "description": "Loads environment variables from a .env file into process.env",
   "main": "dist/env.ly.js",
@@ -9,11 +9,10 @@
   "keywords": [
     "env",
     "process.env",
-    "envly",
-    "env.ly",
+    "hoodly",
     "environment",
     "variable",
-    "environment-variable",
+    "environment variable",
     "force"
   ],
   "author": "Oluwafemi Oso (@osofem)",
@@ -21,10 +20,10 @@
   "types": "./dist/env.ly.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osofem/env.ly.git"
+    "url": "git+https://github.com/osofem/hoodly.git"
   },
   "bugs": {
-    "url": "https://github.com/osofem/env.ly/issues"
+    "url": "https://github.com/osofem/hoodly/issues"
   },
-  "homepage": "https://github.com/osofem/env.ly#readme"
+  "homepage": "https://github.com/osofem/hoodly#readme"
 }
