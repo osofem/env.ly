@@ -1,4 +1,4 @@
-# evn.ly
+# hoodly
 
 A nodejs module for loading `.env` file into `process.env`.
 
@@ -7,7 +7,7 @@ A nodejs module for loading `.env` file into `process.env`.
 #### Typical usage
 
 ```javascript
-require("env.ly").load();
+require("hoodly").load();
 ```
 
 For this, the `.env` file needs to be in the current working directory and any preset variable in `process.env` will not be overwritten.
@@ -17,33 +17,32 @@ For this, the `.env` file needs to be in the current working directory and any p
 To force overwriting of preset variables:
 
 ```javascript
-require("env.ly").load({force: true});
+require("hoodly").load({force: true});
 ```
 
 To log out information for debug purposes
 
 ```javascript
-require("env.ly").load({debug: true});
+require("hoodly").load({debug: true});
 ```
 
 To specify directory path of your `.env` file *(defaults to current working directory of your project)*.
 
 ```javascript
-require("env.ly").load({pathToEnv: '/tmp/files/'});
+require("hoodly").load({pathToEnv: '/tmp/files/'});
 ```
 
 #### Complete Options
 
 ```javascript
-require("env.ly").load({pathToEnv: '/tmp/files/', force: true, debug: true});
+require("hoodly").load({pathToEnv: '/tmp/files/', force: true, debug: true});
 ```
 
 ### Your .env file
 
 Your `.env` file should have variables in the format `key=value` separated by new line. There should not be quotes around your value (unless you intend it to be so).
 
-> NOTE: do NOT include comment in your .env file.
-> 
+> NOTE: do NOT include comment in your `.env` file.
 > Do NOT include quotes in your value (unless you intend it to be so).
 
 ```javascript
